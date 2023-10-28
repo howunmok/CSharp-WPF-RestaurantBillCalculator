@@ -1,0 +1,61 @@
+C:\Users\benny\Desktop\COMP212 Programming 3\RestaurantBillCalc\RestaurantBillCalc\obj\Debug\net6.0-windows\RestaurantBillCalc.csproj.AssemblyReference.cache
+C:\Users\benny\Desktop\COMP212 Programming 3\RestaurantBillCalc\RestaurantBillCalc\obj\Debug\net6.0-windows\App.g.cs
+C:\Users\benny\Desktop\COMP212 Programming 3\RestaurantBillCalc\RestaurantBillCalc\obj\Debug\net6.0-windows\RestaurantBillCalc_MarkupCompile.cache
+C:\Users\benny\Desktop\COMP212 Programming 3\RestaurantBillCalc\RestaurantBillCalc\bin\Debug\net6.0-windows\RestaurantBillCalc.exe
+C:\Users\benny\Desktop\COMP212 Programming 3\RestaurantBillCalc\RestaurantBillCalc\bin\Debug\net6.0-windows\RestaurantBillCalc.deps.json
+C:\Users\benny\Desktop\COMP212 Programming 3\RestaurantBillCalc\RestaurantBillCalc\bin\Debug\net6.0-windows\RestaurantBillCalc.runtimeconfig.json
+C:\Users\benny\Desktop\COMP212 Programming 3\RestaurantBillCalc\RestaurantBillCalc\bin\Debug\net6.0-windows\RestaurantBillCalc.dll
+C:\Users\benny\Desktop\COMP212 Programming 3\RestaurantBillCalc\RestaurantBillCalc\bin\Debug\net6.0-windows\RestaurantBillCalc.pdb
+C:\Users\benny\Desktop\COMP212 Programming 3\RestaurantBillCalc\RestaurantBillCalc\obj\Debug\net6.0-windows\MainWindow.g.cs
+C:\Users\benny\Desktop\COMP212 Programming 3\RestaurantBillCalc\RestaurantBillCalc\obj\Debug\net6.0-windows\RestaurantBillCalc_MarkupCompile.lref
+C:\Users\benny\Desktop\COMP212 Programming 3\RestaurantBillCalc\RestaurantBillCalc\obj\Debug\net6.0-windows\MainWindow.baml
+C:\Users\benny\Desktop\COMP212 Programming 3\RestaurantBillCalc\RestaurantBillCalc\obj\Debug\net6.0-windows\RestaurantBillCalc.g.resources
+C:\Users\benny\Desktop\COMP212 Programming 3\RestaurantBillCalc\RestaurantBillCalc\obj\Debug\net6.0-windows\RestaurantBillCalc.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\benny\Desktop\COMP212 Programming 3\RestaurantBillCalc\RestaurantBillCalc\obj\Debug\net6.0-windows\RestaurantBillCalc.AssemblyInfoInputs.cache
+C:\Users\benny\Desktop\COMP212 Programming 3\RestaurantBillCalc\RestaurantBillCalc\obj\Debug\net6.0-windows\RestaurantBillCalc.AssemblyInfo.cs
+C:\Users\benny\Desktop\COMP212 Programming 3\RestaurantBillCalc\RestaurantBillCalc\obj\Debug\net6.0-windows\RestaurantBillCalc.csproj.CoreCompileInputs.cache
+C:\Users\benny\Desktop\COMP212 Programming 3\RestaurantBillCalc\RestaurantBillCalc\obj\Debug\net6.0-windows\RestaurantBillCalc.dll
+C:\Users\benny\Desktop\COMP212 Programming 3\RestaurantBillCalc\RestaurantBillCalc\obj\Debug\net6.0-windows\refint\RestaurantBillCalc.dll
+C:\Users\benny\Desktop\COMP212 Programming 3\RestaurantBillCalc\RestaurantBillCalc\obj\Debug\net6.0-windows\RestaurantBillCalc.pdb
+C:\Users\benny\Desktop\COMP212 Programming 3\RestaurantBillCalc\RestaurantBillCalc\obj\Debug\net6.0-windows\RestaurantBillCalc.genruntimeconfig.cache
+C:\Users\benny\Desktop\COMP212 Programming 3\RestaurantBillCalc\RestaurantBillCalc\obj\Debug\net6.0-windows\ref\RestaurantBillCalc.dll
+P:\centennial courses\COMP212 Programming 3\Assignments\assignment3\301237442(mok)_LAB#3\RestaurantBillCalc\RestaurantBillCalc\bin\Debug\net6.0-windows\RestaurantBillCalc.exe
+P:\centennial courses\COMP212 Programming 3\Assignments\assignment3\301237442(mok)_LAB#3\RestaurantBillCalc\RestaurantBillCalc\bin\Debug\net6.0-windows\RestaurantBillCalc.deps.json
+P:\centennial courses\COMP212 Programming 3\Assignments\assignment3\301237442(mok)_LAB#3\RestaurantBillCalc\RestaurantBillCalc\bin\Debug\net6.0-windows\RestaurantBillCalc.runtimeconfig.json
+P:\centennial courses\COMP212 Programming 3\Assignments\assignment3\301237442(mok)_LAB#3\RestaurantBillCalc\RestaurantBillCalc\bin\Debug\net6.0-windows\RestaurantBillCalc.dll
+P:\centennial courses\COMP212 Programming 3\Assignments\assignment3\301237442(mok)_LAB#3\RestaurantBillCalc\RestaurantBillCalc\bin\Debug\net6.0-windows\RestaurantBillCalc.pdb
+P:\centennial courses\COMP212 Programming 3\Assignments\assignment3\301237442(mok)_LAB#3\RestaurantBillCalc\RestaurantBillCalc\obj\Debug\net6.0-windows\MainWindow.g.cs
+P:\centennial courses\COMP212 Programming 3\Assignments\assignment3\301237442(mok)_LAB#3\RestaurantBillCalc\RestaurantBillCalc\obj\Debug\net6.0-windows\App.g.cs
+P:\centennial courses\COMP212 Programming 3\Assignments\assignment3\301237442(mok)_LAB#3\RestaurantBillCalc\RestaurantBillCalc\obj\Debug\net6.0-windows\RestaurantBillCalc_MarkupCompile.cache
+P:\centennial courses\COMP212 Programming 3\Assignments\assignment3\301237442(mok)_LAB#3\RestaurantBillCalc\RestaurantBillCalc\obj\Debug\net6.0-windows\RestaurantBillCalc_MarkupCompile.lref
+P:\centennial courses\COMP212 Programming 3\Assignments\assignment3\301237442(mok)_LAB#3\RestaurantBillCalc\RestaurantBillCalc\obj\Debug\net6.0-windows\MainWindow.baml
+P:\centennial courses\COMP212 Programming 3\Assignments\assignment3\301237442(mok)_LAB#3\RestaurantBillCalc\RestaurantBillCalc\obj\Debug\net6.0-windows\RestaurantBillCalc.g.resources
+P:\centennial courses\COMP212 Programming 3\Assignments\assignment3\301237442(mok)_LAB#3\RestaurantBillCalc\RestaurantBillCalc\obj\Debug\net6.0-windows\RestaurantBillCalc.GeneratedMSBuildEditorConfig.editorconfig
+P:\centennial courses\COMP212 Programming 3\Assignments\assignment3\301237442(mok)_LAB#3\RestaurantBillCalc\RestaurantBillCalc\obj\Debug\net6.0-windows\RestaurantBillCalc.AssemblyInfoInputs.cache
+P:\centennial courses\COMP212 Programming 3\Assignments\assignment3\301237442(mok)_LAB#3\RestaurantBillCalc\RestaurantBillCalc\obj\Debug\net6.0-windows\RestaurantBillCalc.AssemblyInfo.cs
+P:\centennial courses\COMP212 Programming 3\Assignments\assignment3\301237442(mok)_LAB#3\RestaurantBillCalc\RestaurantBillCalc\obj\Debug\net6.0-windows\RestaurantBillCalc.csproj.CoreCompileInputs.cache
+P:\centennial courses\COMP212 Programming 3\Assignments\assignment3\301237442(mok)_LAB#3\RestaurantBillCalc\RestaurantBillCalc\obj\Debug\net6.0-windows\RestaurantBillCalc.dll
+P:\centennial courses\COMP212 Programming 3\Assignments\assignment3\301237442(mok)_LAB#3\RestaurantBillCalc\RestaurantBillCalc\obj\Debug\net6.0-windows\refint\RestaurantBillCalc.dll
+P:\centennial courses\COMP212 Programming 3\Assignments\assignment3\301237442(mok)_LAB#3\RestaurantBillCalc\RestaurantBillCalc\obj\Debug\net6.0-windows\RestaurantBillCalc.pdb
+P:\centennial courses\COMP212 Programming 3\Assignments\assignment3\301237442(mok)_LAB#3\RestaurantBillCalc\RestaurantBillCalc\obj\Debug\net6.0-windows\RestaurantBillCalc.genruntimeconfig.cache
+P:\centennial courses\COMP212 Programming 3\Assignments\assignment3\301237442(mok)_LAB#3\RestaurantBillCalc\RestaurantBillCalc\obj\Debug\net6.0-windows\ref\RestaurantBillCalc.dll
+C:\Users\benny\github projects\RestaurantBillCalc\RestaurantBillCalc\bin\Debug\net6.0-windows\RestaurantBillCalc.exe
+C:\Users\benny\github projects\RestaurantBillCalc\RestaurantBillCalc\bin\Debug\net6.0-windows\RestaurantBillCalc.deps.json
+C:\Users\benny\github projects\RestaurantBillCalc\RestaurantBillCalc\bin\Debug\net6.0-windows\RestaurantBillCalc.runtimeconfig.json
+C:\Users\benny\github projects\RestaurantBillCalc\RestaurantBillCalc\bin\Debug\net6.0-windows\RestaurantBillCalc.dll
+C:\Users\benny\github projects\RestaurantBillCalc\RestaurantBillCalc\bin\Debug\net6.0-windows\RestaurantBillCalc.pdb
+C:\Users\benny\github projects\RestaurantBillCalc\RestaurantBillCalc\obj\Debug\net6.0-windows\MainWindow.g.cs
+C:\Users\benny\github projects\RestaurantBillCalc\RestaurantBillCalc\obj\Debug\net6.0-windows\App.g.cs
+C:\Users\benny\github projects\RestaurantBillCalc\RestaurantBillCalc\obj\Debug\net6.0-windows\RestaurantBillCalc_MarkupCompile.cache
+C:\Users\benny\github projects\RestaurantBillCalc\RestaurantBillCalc\obj\Debug\net6.0-windows\RestaurantBillCalc_MarkupCompile.lref
+C:\Users\benny\github projects\RestaurantBillCalc\RestaurantBillCalc\obj\Debug\net6.0-windows\MainWindow.baml
+C:\Users\benny\github projects\RestaurantBillCalc\RestaurantBillCalc\obj\Debug\net6.0-windows\RestaurantBillCalc.g.resources
+C:\Users\benny\github projects\RestaurantBillCalc\RestaurantBillCalc\obj\Debug\net6.0-windows\RestaurantBillCalc.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\benny\github projects\RestaurantBillCalc\RestaurantBillCalc\obj\Debug\net6.0-windows\RestaurantBillCalc.AssemblyInfoInputs.cache
+C:\Users\benny\github projects\RestaurantBillCalc\RestaurantBillCalc\obj\Debug\net6.0-windows\RestaurantBillCalc.AssemblyInfo.cs
+C:\Users\benny\github projects\RestaurantBillCalc\RestaurantBillCalc\obj\Debug\net6.0-windows\RestaurantBillCalc.csproj.CoreCompileInputs.cache
+C:\Users\benny\github projects\RestaurantBillCalc\RestaurantBillCalc\obj\Debug\net6.0-windows\RestaurantBillCalc.dll
+C:\Users\benny\github projects\RestaurantBillCalc\RestaurantBillCalc\obj\Debug\net6.0-windows\refint\RestaurantBillCalc.dll
+C:\Users\benny\github projects\RestaurantBillCalc\RestaurantBillCalc\obj\Debug\net6.0-windows\RestaurantBillCalc.pdb
+C:\Users\benny\github projects\RestaurantBillCalc\RestaurantBillCalc\obj\Debug\net6.0-windows\RestaurantBillCalc.genruntimeconfig.cache
+C:\Users\benny\github projects\RestaurantBillCalc\RestaurantBillCalc\obj\Debug\net6.0-windows\ref\RestaurantBillCalc.dll

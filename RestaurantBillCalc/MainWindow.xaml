@@ -1,0 +1,102 @@
+﻿<Window x:Class="RestaurantBillCalc.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:RestaurantBillCalc"
+        mc:Ignorable="d"
+        Title="Centennial Restaurant" Height="500" Width="600">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="25*"/>
+            <RowDefinition Height="75*"/>
+        </Grid.RowDefinitions>
+        <Grid Grid.Row="0">
+            <Grid.RowDefinitions>
+                <RowDefinition>
+                </RowDefinition>
+                <RowDefinition />
+            </Grid.RowDefinitions>
+            
+            <TextBlock Text="Meun Items:" FontSize="14" VerticalAlignment="Top" Margin="20,20,0,0"/>
+            <TextBlock Text="Beveragers" VerticalAlignment="Bottom" Margin="20,0,0,0"/>
+            <TextBlock Grid.Column="1" Text="Appetizers" VerticalAlignment="Bottom" Margin="20,0,0,0"/>
+            <TextBlock Grid.Column="2" Text="Main Course" VerticalAlignment="Bottom" Margin="20,0,0,0"/>
+            <TextBlock Grid.Column="3" Text="Dessert" VerticalAlignment="Bottom" Margin="20,0,0,0"/>
+
+            <ComboBox x:Name="cbbeverages" Grid.Row="1" Width="120" Height="20" VerticalAlignment="Top" HorizontalAlignment="Center" Margin="0,5,0,0" 
+                      SelectionChanged="ComboBox_SelectionChanged">
+                <ComboBoxItem Content="Soda - $1.95" Tag="1.95" />
+                <ComboBoxItem Content="Tea - $1.50" Tag="1.5" />
+                <ComboBoxItem Content="Coffee - $1.25" Tag="1.25" />
+                <ComboBoxItem Content="Mineral Water - $2.95" Tag="2.95" />
+                <ComboBoxItem Content="Juice - $2.50" Tag="2.50" />
+                <ComboBoxItem Content="Milk - $1.50" Tag="1.50" />
+            </ComboBox>
+            <ComboBox x:Name="cbAppetizer" Grid.Row="1" Grid.Column="1" Width="120" Height="20" VerticalAlignment="Top" HorizontalAlignment="Center" Margin="0,5,0,0" 
+                      SelectionChanged="ComboBox_SelectionChanged">
+                <ComboBoxItem Content="Buffalo Wings - $5.95" Tag="5.95" />
+                <ComboBoxItem Content="Buffalo Fingers - $6.95" Tag="6.95" />
+                <ComboBoxItem Content="Potato Skins - $8.95" Tag="8.95" />
+                <ComboBoxItem Content="Nachos - $8.95" Tag="8.95" />
+                <ComboBoxItem Content="Mushroom Caps - $10.95" Tag="10.95" />
+                <ComboBoxItem Content="Shrimp Cocktail - $12.95" Tag="12.95" />
+                <ComboBoxItem Content="Chips and Salsa - $6.95" Tag="6.95" />
+            </ComboBox>
+            <ComboBox x:Name="cbMainCourses" Grid.Row="1" Grid.Column="2" Width="120" Height="20" VerticalAlignment="Top" HorizontalAlignment="Center" Margin="0,5,0,0" 
+                      SelectionChanged="ComboBox_SelectionChanged">
+                <ComboBoxItem Content="Seafood Alfredo - $15.95" Tag="15.95" />
+                <ComboBoxItem Content="Chicken Alfredo - $13.95" Tag="13.95" />
+                <ComboBoxItem Content="Chicken Picatta - $13.95" Tag="13.95" />
+                <ComboBoxItem Content="Turkey Club - $11.95" Tag="11.95" />
+                <ComboBoxItem Content="Prime Rib - $20.95" Tag="20.95" />
+                <ComboBoxItem Content="Shrimp Scampi - $18.95" Tag="18.95" />
+                <ComboBoxItem Content="Turkey Dinner - $13.95" Tag="13.95" />
+                <ComboBoxItem Content="Stuffed Chicken - $14.95" Tag="14.95" />
+            </ComboBox>
+            <ComboBox x:Name="cbDesserts" Grid.Row="1" Grid.Column="3" Width="120" Height="20" VerticalAlignment="Top" HorizontalAlignment="Center" Margin="0,5,0,0" 
+                      SelectionChanged="ComboBox_SelectionChanged">
+                <ComboBoxItem Content="Sundae - $3.95" Tag="3.95" />
+                <ComboBoxItem Content="Carrot Cake - $5.95" Tag="5.95" />
+                <ComboBoxItem Content="Mud Pie - $4.95" Tag="4.95" />
+                <ComboBoxItem Content="Apple Crisp - $5.95" Tag="5.95" />
+            </ComboBox>
+
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition />
+                <ColumnDefinition />
+                <ColumnDefinition />
+                <ColumnDefinition />
+            </Grid.ColumnDefinitions>
+        </Grid>
+        <Grid Grid.Row="1">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="60*" />
+                <ColumnDefinition Width="40*" />
+            </Grid.ColumnDefinitions>
+            <TextBlock Text="Selected Items: " FontSize="14" VerticalAlignment="Top" Margin="20,0,0,0" />
+            <DataGrid x:Name="dgItemList" Width="320" Height="280" VerticalAlignment="Top" HorizontalAlignment="Left" Margin="16,20,0,0" AutoGenerateColumns="False" >
+                <DataGrid.Columns>
+                    <DataGridTextColumn Header="Item" Binding="{Binding Item}" Width="*" />
+                    <DataGridTextColumn Header="Price" Binding="{Binding Price, StringFormat='{}${0:F2}'}" Width="*" />
+                </DataGrid.Columns>
+            </DataGrid>
+            <Button x:Name="btnRemove" VerticalAlignment="Bottom" HorizontalAlignment="Left" Width="140" Height="20" Content="Remove Selected Item" Margin="16,0,0,20" Click="DeleteButton_Click" />
+            
+            <StackPanel Grid.Column="1">
+                <TextBlock FontSize="14" Text="Calculation: "  Margin="30,0,0,0"/>
+                <TextBlock Text="Subtotal: "  Margin="32,10,0,0"/>
+                <TextBox x:Name="txtSubtotal" Width="100" Height="20" HorizontalAlignment="Left" Margin="30,0,0,0" Text="$0.00"/>
+                <TextBlock Text="Tax: "  Margin="32,10,0,0"/>
+                <TextBox x:Name="txtTax" Width="100" Height="20" HorizontalAlignment="Left" Margin="30,0,0,0" Text="$0.00"/>
+                <TextBlock Text="Total: "  Margin="32,10,0,0"/>
+                <TextBox x:Name="txtTotal" Width="100" Height="20" HorizontalAlignment="Left" Margin="30,0,0,0" Text="$0.00"/>
+                <Button x:Name="btnPrint" HorizontalAlignment="Left" Width="100" Height="20" Content="Print Invoice" Margin="30,20,0,0" Click="PrintBillButton_Click" />
+                <Button x:Name="btnClear" HorizontalAlignment="Left" Width="100" Height="20" Content="Clear Bill" Margin="30,10,0,0" Click="ClearBillButton_Click" />
+                <TextBlock Text="Created by Ho Wun Mok" HorizontalAlignment="Right" Margin="0,30,20,0" />
+                <Image x:Name="CompanyLogo" Source="/images/cclogo.jpg" Height="60" HorizontalAlignment="Right" Margin="0,5,20,0" MouseLeftButtonDown="CompanyLogo_MouseLeftButtonDown" />
+            </StackPanel>
+            
+        </Grid>
+    </Grid>
+</Window>
